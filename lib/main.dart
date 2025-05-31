@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Shopping Cart',
       theme: ThemeData(primaryColor: Colors.blue),
+      debugShowCheckedModeBanner: false,
       home: ProductLists(),
     );
   }
